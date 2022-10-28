@@ -1,8 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Topografias */
+@font-face {
+  font-family: "brotherRegular";
+  src: url("/fonts/Brother1816Printed-Book.woff2");
 }
 
-body{
-    
+@font-face {
+  font-family: "brotherBold";
+  src: url("/fonts/Brother1816Printed-Bold.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Cuerpo */
+body {
+  background-color: #566a6a;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #d0d5cf;
+  width: 80vh;
+  height: 100vh;
+  max-width: 1366px;
+}
+
+/* Header */
+header {
+  background-image: url("/img/banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+/* navbar */
+nav {
+  background-color: #d0d5cf;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  font-family: brotherRegular;
+}
+
+#Logo {
+  float: left;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family: brotherBold;
+}
+
+#subscribe {
+  border: 1px solid;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
