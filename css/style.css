@@ -18,16 +18,16 @@ body {
   background-color: #566a6a;
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 .container {
   background-color: #d0d5cf;
   height: 100vh;
-  width: 90vh;
+  width: 130vh;
   max-width: 1920px;
-  box-sizing: border-box;
-  border: 10px solid #566a6a;
   align-items: center;
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -36,18 +36,21 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 350px;
 }
 
 /* navbar */
 nav {
-  background-color: #d0d5cf;
+  background-color: #F0F7FF;
   display: flex;
+  justify-content: space-between;
+  padding-right: 12px;
 }
 
 ul {
   list-style-type: none;
   overflow: hidden;
+  margin-top: 12px;
 }
 
 li {
@@ -58,6 +61,7 @@ li {
 #Logo {
   float: left;
   font-family: brotherBold;
+  margin-left: 10px;
 }
 
 #subscribe {
@@ -70,4 +74,5 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 15px;
 }
