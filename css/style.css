@@ -22,9 +22,12 @@ body {
 
 .container {
   background-color: #d0d5cf;
-  width: 80vh;
   height: 100vh;
-  max-width: 1366px;
+  width: 90vh;
+  max-width: 1920px;
+  box-sizing: border-box;
+  border: 10px solid #566a6a;
+  align-items: center;
 }
 
 /* Header */
@@ -39,12 +42,11 @@ header {
 /* navbar */
 nav {
   background-color: #d0d5cf;
+  display: flex;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
 
@@ -55,8 +57,6 @@ li {
 
 #Logo {
   float: left;
-  padding-top: 15px;
-  padding-left: 10px;
   font-family: brotherBold;
 }
 
