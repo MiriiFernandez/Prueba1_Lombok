@@ -133,31 +133,87 @@ li a {
 }
 
 .card1 {
-  border: 1px solid #cccccc;
+  background-color:#f0f7ff ;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  height: 55vh;
 }
 
+/* Tamaño imagen */
 img {
   width: 100%;
 }
 
+/* Linea separadora */
+#separador_card{
+  margin-bottom: 20px;
+  height: 1px;
+  color: #000;
+  background-color: #000;
+  width: 10%;
+  display: flex;
+  margin-left: 80px;
+
+}
+
+/* Parráfo */
 figcaption {
-  background-color: #f1f1f1;
   color: black;
   padding: 8px;
+  text-align: center;
+  height: 20vh;
+  margin-top: 40px;
+}
+
+figcaption p{
+  font-family: brotherRegular;
   text-align: center;
 }
 
 /* Card 2 */
 .card2 {
-  border: 1px solid #cccccc;
+  background-color:#f0f7ff ;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  height: 55vh;
 }
 
 .card3 {
-  border: 1px solid #cccccc;
+  background-color:#f0f7ff ;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  height: 55vh;
 }
+
+/* Seccion About */
+#about{
+  background-color: red;
+  display: flex;
+  margin-top: 50px;
+  height: 70vh;
+}
+
+.imageAbout{
+  width: 54%;
+}
+
+.TextoAbout{
+  font-family: brotherRegular;
+}
+
+#separador_about{
+  height: 1px;
+  border-color: #000;
+  background-color: #000;
+  width: 10%;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+
+
+
+
+
+
+
