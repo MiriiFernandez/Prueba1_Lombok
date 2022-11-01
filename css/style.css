@@ -193,7 +193,7 @@ figcaption p {
 }
 
 .imageAbout {
-  width: 100%;
+  width: 115%;
 }
 
 .TextoAbout {
@@ -204,11 +204,10 @@ figcaption p {
   float: left;
 }
 
-#tituloAbout {
+#tituloAbout{
   font-family: brotherBold;
-  font-size: 17px;
-  margin-bottom: 25px;
 }
+
 
 #separador_about {
   color: #000;
@@ -226,6 +225,7 @@ figcaption p {
   text-align: justify;
   justify-content: center;
   text-align: center;
+  font-family: brotherRegular;
 }
 
 /* Seccion Contacto */
