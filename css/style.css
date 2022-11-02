@@ -193,7 +193,11 @@ figcaption p {
 }
 
 .imageAbout {
-  width: 135%;
+  background-image: url('/img/Article.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 
 .TextoAbout {
@@ -212,16 +216,17 @@ figcaption p {
   color: #000;
   background-color: #000;
   border-color: #000;
-  width: 55px;
+  width: 50px;
   height: 2px;
   border-radius: 10px;
-  margin-left: 220px;
+  margin-left: 250px;
   margin-top: 20px;
 }
 
 .parrafo_about {
   padding-right: 50px;
   margin-top: 60px;
+  margin-left: 20px;
   text-align: justify;
   justify-content: center;
   text-align: center;
