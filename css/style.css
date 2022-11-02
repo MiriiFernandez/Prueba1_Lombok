@@ -193,11 +193,10 @@ figcaption p {
 }
 
 .imageAbout {
-  width: 115%;
+  width: 135%;
 }
 
 .TextoAbout {
-  display: flex;
   padding-top: 40px;
   justify-content: center;
   text-align: center;
@@ -206,8 +205,8 @@ figcaption p {
 
 #tituloAbout{
   font-family: brotherBold;
+  margin-left: 30px;
 }
-
 
 #separador_about {
   color: #000;
@@ -216,11 +215,12 @@ figcaption p {
   width: 55px;
   height: 2px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-left: 220px;
+  margin-top: 20px;
 }
 
-.TextoAbout p {
-  padding-right: 80px;
+.parrafo_about {
+  padding-right: 50px;
   margin-top: 60px;
   text-align: justify;
   justify-content: center;

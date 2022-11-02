@@ -60,13 +60,18 @@
       </section>
       <!-- Seccion About -->
       <section id="about">
+        <!-- Imagen about -->
         <picture class="imageAbout">
-          <img src="/img/Article.webp">
+          <source srcset="/img/Article.webp 1x,
+                          /img/Article2x.webp 2x">
+          <img class="fotoArticle">
         </picture>
         <section class="TextoAbout">
-          <h4 id="tituloAbout">About</h4>
+          <h2 id="tituloAbout">About</h2>
           <hr id="separador_about"/>
+          <section class="parrafo_about">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla facilis consectetur, fugiat veritatis sit porro sint delectus voluptas, rerum laboriosam expedita ratione blanditiis.</p>
+        </section>
         </section>
       </section>
 
