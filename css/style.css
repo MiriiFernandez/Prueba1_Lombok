@@ -193,7 +193,7 @@ figcaption p {
 }
 
 .imageAbout {
-  background-image: url('/img/Article.webp');
+  background-image: url('img/Article.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
